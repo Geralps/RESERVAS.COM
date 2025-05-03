@@ -1,0 +1,20 @@
+# .gitignore (en la raíz tu-hotel-app)
+
+# Backend
+backend/node_modules
+backend/.env
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+
+# Frontend (Create React App)
+frontend/node_modules
+frontend/build
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Otros
+.DS_Store
+coverage
+node_modules

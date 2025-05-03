@@ -1,0 +1,17 @@
+{
+    "name": "tu-hotel-app",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "start": "concurrently \"npm start --prefix backend\" \"npm start --prefix frontend\""
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.21",
+        "concurrently": "^8.0.1",
+        "postcss": "^8.5.3",
+        "tailwindcss": "^4.1.2"
+    },
+    "dependencies": {
+        "express-validator": "^7.2.1"
+    }
+}

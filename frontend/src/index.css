@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Puedes añadir tus propios estilos globales personalizados debajo si es necesario */
+body {
+  @apply font-sans bg-gray-50 text-gray-800; /* Ejemplo de aplicar una utilidad de Tailwind globalmente */
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
